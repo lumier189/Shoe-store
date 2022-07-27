@@ -46,7 +46,7 @@ header h1 {
 
 body h1 {
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
   
 }
@@ -110,19 +110,23 @@ a {
     
     position: relative;
     right: 13%;
-    top: 200px;
+    top: 130px;
 }
 
 .testelink{
     
     position: relative;
     right: 13%;
-    top: 220px;
+    top: 160px;
     text-decoration: none;
     padding: 1%;
     background-color: #C2185B;
     color: white;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
 }
 
+body a {
+    font-family: 'Open Sans', sans-serif;
+
+}
