@@ -109,15 +109,15 @@ a {
 .teste{
     
     position: relative;
-    right: 13%;
-    top: 130px;
+    right: 16%;
+    top: 95px;
 }
 
 .testelink{
     
     position: relative;
-    right: 13%;
-    top: 160px;
+    right: 16%;
+    top: 120px;
     text-decoration: none;
     padding: 1%;
     background-color: #C2185B;
