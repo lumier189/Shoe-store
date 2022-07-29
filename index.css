@@ -1,131 +1,97 @@
-header {
-    border: 2px solid black;
-    display: flex;
-    margin: 2%;
-    justify-content: space-between;
-    
-}
-
-.talvez {
-    display: flex;
-    align-items: initial;
-    white-space: nowrap;
-    margin: 2%;
-    margin-right: 15%;
-    
-
-    
-}
-header{
-    font-family: open;
+*{
+    box-sizing: border-box;
+    text-decoration: none;
    
 }
-header img {
-    margin-left: 2%;
-    width: 15%;
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
-header a{
+.menu{
 
-    margin: 5%;
-    text-decoration: none;
-    color: black;
-    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+    margin-top: 25px;
+    gap: 30px;
+    margin-right: 8%;
 }
-
-header h1 {
-    text-align: end;
- 
-    
-}
-
 .banner{
     width: 100%;
-    margin-bottom: 5%;
 }
-
-body h1 {
+main h1 {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-  
 }
 
 .corpo{
-    
     text-align: center;
-    margin: 10%;
-}
-
-.offer{
-    background-color:  #C2185B;
-    display: flex;
-    padding: 5%;
-    justify-content: space-evenly;
-
-}
-
-.titulo{
-    background-color: #C2185B;
-    margin-bottom: -1%;
-    padding-top: 2%;
     
 }
 
-a {
-    text-decoration: none;
+.imgcorpo{
+    margin:4%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 4%;
+    max-width:fit-content/
+}
+.sapato{
+    background-color: #C2185B;
     color: black;
 }
-.sapato1{
-    background-color: white;
-    text-align: center;  
+.offer{
+    color: black;
     display: flex;
-    flex-direction: column-reverse;
-
-}
-
-.sapato2{
-    background-color: white;
-    text-align: center;  
-    display: flex;
-    flex-direction: column-reverse;
-    
-}
-.sapato3{
-    background-color: white;
-    text-align: center;  
-}
-.sapato4{
-    background-color: white;
-    text-align: center;  
-}
-
-.corpo2 {
+    flex-direction: column;
     text-align: center;
-    margin: 2%;
+    
     
 }
-
-.teste{
-    position: relative;
-    right: 16%;
-    top: 95px;
-}
-
-.testelink{
-    
-    position: relative;
-    right: 16%;
-    top: 120px;
-    text-decoration: none;
-    padding: 1%;
-    background-color: #C2185B;
+.titulo{
+    text-align: center;
     color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
+    background-color: #C2185B;
+    padding: 10px;
+    margin-bottom: 0;
 }
 
-body a {
-    font-family: 'Open Sans', sans-serif;
+.sapato p {
+    background-color: white;
+    width: 267px;
+    
+}
+.sapato a{
+    background-color: aliceblue;
+    width: 267px;
+}
+.sapato h4{
+    background-color: white;
+}
 
+
+.corpo2{
+    text-align: center;
+}
+.testelink{
+    color: white;
+    background-color: #C2185B;
+    padding: 7px 30px 7px 30px;
+    margin-bottom: 20px;
+}
+
+.corpo2img1{
+    margin-top: 10%;
+    position: relative;
+}
+
+.titulo2{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.corpo2 img {
+    margin-left: 4.5% ;
+    margin-right:¨4.5% ;
 }

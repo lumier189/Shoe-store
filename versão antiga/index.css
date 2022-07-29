@@ -1,0 +1,150 @@
+
+
+header {
+   
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+    
+}
+
+.talvez {
+    display: flex;
+    align-items: initial;
+    white-space: nowrap;
+    margin: 2%;
+    margin-right: 15%;
+    
+    
+}
+
+
+header{
+    font-family: open;
+   
+}
+header img {
+    margin-left: 2%;
+    width: 15%;
+}
+
+header a{
+
+    margin: 5%;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+header h1 {
+    text-align: end;
+ 
+    
+}
+
+.banner{
+    width: 100%;
+    
+    
+}
+
+body h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+  
+}
+
+.corpo{
+    
+    text-align: center;
+    margin: 10%;
+}
+
+.offer{
+    background-color:  #C2185B;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    
+
+}
+
+.titulo{
+    background-color: #C2185B;
+    margin-bottom: -1%;
+    padding-top: 2%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.sapato1{
+    background-color: #C2185B;
+    text-align: center;  
+    
+}
+
+.sapato2{
+    background-color:#C2185B;
+    text-align: center;  
+    
+}
+.sapato3{
+    background-color:#C2185B;
+    text-align: center;  
+}
+.sapato4{
+    background-color: white;
+    text-align: center;  
+}
+
+.corpo2 {
+    text-align: center;
+    margin: 2%;
+    
+}
+
+.teste{
+    position: relative;
+    right: 16%;
+    top: 95px;
+}
+
+.testelink{
+    
+    position: relative;
+    right: 16%;
+    top: 120px;
+    text-decoration: none;
+    padding: 1%;
+    background-color: #C2185B;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+body a {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+@media (max-width: 700px){
+
+    .offer {
+    display:flex;
+    flex-direction: column;
+    background-color: #C2185B;
+    
+    }   
+   .t1 {
+        margin-top: -22 ;
+        background-color: white;
+    }
+    
+}
