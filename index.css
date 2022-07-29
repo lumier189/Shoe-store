@@ -134,3 +134,19 @@ main h1 {
     margin-right:¨4.5% ;
     width: 80%;
 }
+
+footer {
+    background-color: #C2185B;
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+  
+}
+
+footer a {
+    color: white;
+}
+
