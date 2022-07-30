@@ -142,7 +142,7 @@ main h1 {
 }
 
 footer {
-    padding: right 10%;;
+    padding-right:  10%;;
     padding-left: 10%;
     background-color: #C2185B;
     text-align: center;
@@ -169,7 +169,7 @@ footer img {
 }
 
 footer nav {
-
+    
     white-space: nowrap;
     display: flex;
     font-size: xx-small;
@@ -177,6 +177,7 @@ footer nav {
 
 .textofooter {
     font-size: xx-small;
+    
    
 }
 
