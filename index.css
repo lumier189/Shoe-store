@@ -144,10 +144,12 @@ main h1 {
 footer {
     padding-right:  10%;;
     padding-left: 10%;
+    padding-top: 5%;
     background-color: #C2185B;
-    text-align: center;
+    text-align: start;
     color: white;
     display: flex;
+    
 }
 
 footer ul {
@@ -161,7 +163,7 @@ footer a {
 }
 
 footer h3 {
-    text-align: center;
+    text-align: start;
 }
 
 footer img {
@@ -174,10 +176,14 @@ footer nav {
     display: flex;
     font-size: xx-small;
 }
+footer nav strong{
+    font-size: small;
 
-.textofooter {
+}
+
+
+.textofooter p {
     font-size: xx-small;
-    
-   
+    margin-top: -10%; 
 }
 
