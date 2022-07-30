@@ -78,6 +78,7 @@ main h1 {
 .sapato{
     background-color: #C2185B;
     color: black;
+    
 }
 .offer{
     color: black;
@@ -93,6 +94,11 @@ main h1 {
     background-color: #C2185B;
     padding: 10px;
     margin-bottom: 0;
+}
+
+.sapato img{
+    
+    width: 80%;
 }
 
 .sapato p {
@@ -136,9 +142,12 @@ main h1 {
 }
 
 footer {
+    padding: right 10%;;
+    padding-left: 10%;
     background-color: #C2185B;
     text-align: center;
     color: white;
+    display: flex;
 }
 
 footer ul {
@@ -154,3 +163,20 @@ footer a {
 footer h3 {
     text-align: center;
 }
+
+footer img {
+    width: 100%
+}
+
+footer nav {
+
+    white-space: nowrap;
+    display: flex;
+    font-size: xx-small;
+}
+
+.textofooter {
+    font-size: xx-small;
+   
+}
+
