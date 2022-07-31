@@ -24,6 +24,7 @@ header{
     text-decoration: none;
     font-size: 17px;
     display: block;
+  
   }
   
   /* Style the hamburger menu */
@@ -39,6 +40,7 @@ header{
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+    
    
   }
   
@@ -46,17 +48,7 @@ header{
   .active {
     background-color: white;
     color: white;
-    
   }
-.menu{
-
-    display: flex;
-    justify-content: space-around;
-    white-space: nowrap;
-    margin-top: 25px;
-    gap: 30px;
-    margin-right: 10px;
-}
 .banner{
     width: 100%;
 }
