@@ -122,6 +122,7 @@ main h1 {
 
 .corpo2{
     text-align: center;
+    
 }
 .testelink{
     color: white;
@@ -158,8 +159,7 @@ footer {
 
 footer ul {
     list-style: none;
-    max
-  
+    max 
 }
 
 footer a {
@@ -193,10 +193,9 @@ footer nav strong{
     margin-top: -10%; 
 }
 
-@media (min-width:700px){
-.corpo{
-    
-}
+
+@media (min-width:1250px){
+
 .corpor img {
     margin-left: 4.5%;
     margin-right: 4.5%;
@@ -232,6 +231,108 @@ body {
     text-align: start;
     padding: 5%;
 }
+.corpo2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: end;
+    
 }
+.preços{
+    text-align: center ;
     
 
+}
+
+.corpo2img1{
+    max-width: 513px;
+    max-height: 663px;
+    margin-top: 10%;
+   
+        
+}
+.testelink{
+    font-size: 30px;
+    color: white;
+    background-color: #C2185B;
+    padding: 17px 60px 17px 60px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -94px;
+    white-space: nowrap;
+    left: 50px;    
+    
+}
+.titulo2{
+    font-size: 30px;
+    position: absolute;
+    text-align: start;
+    top: -258px;
+    left: 50px;
+    
+    
+}
+.container{
+    align-self: auto;
+    position: relative;
+   
+      
+}
+.corpo2img2 {
+    max-width: 507px;
+    
+}
+.titulo {
+    padding-top: 2%;
+
+}
+footer {
+    padding: 30px;
+    background-color: #C2185B;
+    text-align: start;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer a {
+    color: white;
+}
+
+footer img {
+   width: 396px;
+   height: 204px;
+   
+    
+}
+
+footer nav {
+   
+    white-space: nowrap;
+    display: flex;
+    font-size: x-large;
+    
+}
+footer nav strong{
+    font-size: xx-large;
+
+}
+
+
+.textofooter p {
+    font-size: 25px; ;
+
+
+}
+
+
+}
