@@ -209,9 +209,7 @@ footer nav strong{
 .imgcorpo2{
     max-width: 600px;
 }
-body {
-    background-color: yellow;
-}
+
 .offer {
     display: flex;
     flex-direction: row;
