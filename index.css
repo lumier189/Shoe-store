@@ -159,7 +159,7 @@ footer {
 
 footer ul {
     list-style: none;
-    max 
+    margin-inline-end: -14px;
 }
 
 footer a {
@@ -176,7 +176,7 @@ footer img {
 }
 
 footer nav {
-    margin-left: -20px;
+    margin-left: -30px;
     white-space: nowrap;
     display: flex;
     font-size: xx-small;
@@ -186,7 +186,6 @@ footer nav strong{
     font-size: small;
 
 }
-
 
 .textofooter p {
     font-size: xx-small;
@@ -329,7 +328,7 @@ footer nav strong{
 
 
 .textofooter p {
-    font-size: 25px; ;
+    font-size: 25px ;
 
 
 }
