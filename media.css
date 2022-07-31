@@ -1,0 +1,43 @@
+.imgcorpo{
+    margin:4%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 4%;
+    width: 80%;
+    
+}
+.offer{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    .titulo{
+        text-align: center;
+        color: white;
+        background-color: #C2185B;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+    
+    .sapato img{
+        
+        width: 80%;
+    }
+    
+    .sapato p {
+        background-color: white;
+        margin-top: -1px;
+        margin-left: 10%;
+        text-align: center;
+        width: 80%;
+        
+    }
+    .sapato a{
+        background-color: aliceblue;
+        color: black;
+    }
+    .sapato h4{
+        background-color: white;
+    }
+    

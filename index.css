@@ -69,7 +69,7 @@ main h1 {
     
 }
 
-.imgcorpo{
+.corpo img{
     margin:4%;
     margin-left: 4.5%;
     margin-right: 4.5%;
@@ -105,7 +105,7 @@ main h1 {
 
 .sapato p {
     background-color: white;
-    margin-top: -1%;
+    margin-top: -1px;
     margin-left: 10%;
     text-align: center;
     width: 80%;
@@ -152,17 +152,18 @@ footer {
     text-align: start;
     color: white;
     display: flex;
+    max-width: 100%;
     
 }
 
 footer ul {
     list-style: none;
+    max
   
 }
 
 footer a {
     color: white;
-    
 }
 
 footer h3 {
@@ -191,4 +192,46 @@ footer nav strong{
     font-size: xx-small;
     margin-top: -10%; 
 }
+
+@media (min-width:700px){
+.corpo{
+    
+}
+.corpor img {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 4%;
+    
+
+}
+.imgcorpo1 {
+    max-width:400px;
+}
+.imgcorpo2{
+    max-width: 600px;
+}
+body {
+    background-color: yellow;
+}
+.offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #C2185B;
+    padding: 1%;
+    gap: 3%;
+    
+}
+.sapato img{
+    width: auto;
+
+}
+.sapato p {
+    width: 100%;
+    margin-left: 0%;
+    text-align: start;
+    padding: 5%;
+}
+}
+    
 
